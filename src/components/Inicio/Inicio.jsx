@@ -22,7 +22,7 @@ function Contacto(){
                     <span className="flex justify-center text-xl text-gray-200 pb-3">Carlos Daniel Gonzales Chilcon</span>
                 </div>
                 <div className='flex flex-row justify-evenly text-gray-200 text-sm p-2 mt-2 rounded-lg leading-relaxed bg-zinc-800 gap-2'>
-                    <a href="" download className='flex justify-center items-center bg-green-600 hover:bg-green-500 rounded-md w-28 py-1'>Descargar CV</a>
+                    <a href="" download className='flex justify-center items-center bg-yellow-600 hover:bg-yellow-500 rounded-md w-28 py-1'>Descargar CV</a>
                     <a href="https://web.whatsapp.com/" target='_blank' className='flex justify-center items-center bg-green-600 hover:bg-green-500 rounded-md w-8 py-1'><i className="fa-brands fa-whatsapp"></i></a>
                     <a href="https://www.linkedin.com/in/carlos-daniel-gonzales-chilcon/?originalSubdomain=pe" target='_blank' className='flex justify-center items-center bg-blue-700 hover:bg-blue-600 rounded-md w-8 py-1'><i className="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/carlosdaniel_store/" target='_blank' className='flex justify-center items-center bg-red-700 hover:bg-red-600 rounded-md w-8 py-1'><i className="fa-brands fa-instagram"></i></a>
