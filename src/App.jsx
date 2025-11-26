@@ -42,7 +42,7 @@ function App() {
         Visible desde escritorio
         =========================================================
         */}
-        <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-11 top-0 z-50" : "relative md:w-full md:max-w-6xl"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
+        <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-8 top-0 z-50" : "relative md:w-full md:max-w-6xl"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
           <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-user-shield mr-1"></i> <a href="#inicio">Inicio</a></button>
           <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-trophy mr-1"></i> <a href="#experiencia">Experiencia</a></button>
           <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-images mr-1"></i> <a href="#portfolio">Portfolio</a></button>
