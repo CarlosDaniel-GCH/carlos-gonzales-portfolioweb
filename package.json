@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://CarlosDaniel-GCH.github.io/carlos-gonzales-portfolioweb",
+  "homepage": "https://CarlosDaniel-GCH.github.io/carlos-gonzales-portfolioweb/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
