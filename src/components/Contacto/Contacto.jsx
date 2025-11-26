@@ -19,21 +19,17 @@ const Contacto = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+    const params = new URLSearchParams(form).toString();
     try {
-      const params = new URLSearchParams(form).toString();
       const res = await fetch(`${scriptURL}?${params}`);
       await res.text();
-      
       alert("Mensaje enviado correctamente!");
-      setForm({ firstName: "", lastName: "", email: "", message: "" }); // limpiar formulario
+      setForm({ firstName: "", lastName: "", email: "", message: "" });
     } catch (error) {
       console.error("Error al enviar el mensaje:", error);
       alert("Error al enviar el mensaje.");
     }
   };
-  
-
 
   return (
     <div className="flex flex-col gap-10 text-gray-200">
