@@ -8,6 +8,8 @@ const Contacto = () => {
     message: ""
   });
 
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzCtPB16eadlpc3_D_Z65i_1g-CKaMSxv8XFignErNT9oUzbjcVyU3Th3-ibR1N6d2E/exec";
+
   const handleChange = (e) => {
     setForm({
       ...form,
@@ -17,30 +19,20 @@ const Contacto = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    const scriptURL = "https://script.google.com/macros/s/AKfycbzCtPB16eadlpc3_D_Z65i_1g-CKaMSxv8XFignErNT9oUzbjcVyU3Th3-ibR1N6d2E/exec";
-
+    
     try {
-      await fetch(scriptURL, {
-        method: "POST",
-        body: JSON.stringify(form),
-        headers: {
-          "Content-Type": "application/json"
-        }
-      });
-
+      const params = new URLSearchParams(form).toString();
+      const res = await fetch(`${scriptURL}?${params}`);
+      await res.text();
+      
       alert("Mensaje enviado correctamente!");
+      setForm({ firstName: "", lastName: "", email: "", message: "" }); // limpiar formulario
     } catch (error) {
       console.error("Error al enviar el mensaje:", error);
-
-      // Si el error tiene mensaje, mostrarlo en el alert
-      if (error.message) {
-        alert("Error al enviar el mensaje: " + error.message);
-      } else {
-        alert("Error al enviar el mensaje. Revisa la consola para más detalles.");
-      }
+      alert("Error al enviar el mensaje.");
     }
   };
+  
 
 
   return (
