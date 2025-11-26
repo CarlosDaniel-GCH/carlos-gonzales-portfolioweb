@@ -1,6 +1,48 @@
-import React from 'react';
+import React, {useState } from 'react';
 
 const Contacto = () => {
+  const [form, setForm] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    message: ""
+  });
+
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const scriptURL = "https://script.google.com/macros/s/AKfycbzCtPB16eadlpc3_D_Z65i_1g-CKaMSxv8XFignErNT9oUzbjcVyU3Th3-ibR1N6d2E/exec";
+
+    try {
+      await fetch(scriptURL, {
+        method: "POST",
+        body: JSON.stringify(form),
+        headers: {
+          "Content-Type": "application/json"
+        }
+      });
+
+      alert("Mensaje enviado correctamente!");
+    } catch (error) {
+      console.error("Error al enviar el mensaje:", error);
+
+      // Si el error tiene mensaje, mostrarlo en el alert
+      if (error.message) {
+        alert("Error al enviar el mensaje: " + error.message);
+      } else {
+        alert("Error al enviar el mensaje. Revisa la consola para más detalles.");
+      }
+    }
+  };
+
+
   return (
     <div className="flex flex-col gap-10 text-gray-200">
         {/* Titulo */}
@@ -43,7 +85,7 @@ const Contacto = () => {
 
         {/* Lado Derecho: Formulario de Contacto */}
         <div className="lg:w-1/2">
-          <form className="space-y-6">
+          <form className="space-y-6" onSubmit={handleSubmit}>
             
             {/* Fila de Nombre y Apellido */}
             <div className="flex space-x-4">
@@ -54,7 +96,9 @@ const Contacto = () => {
                 <input 
                   type="text" 
                   id="firstName" 
-                  name="firstName" 
+                  name="firstName"
+                  value={form.firstName}
+                  onChange={handleChange}
                   className="mt-1 block w-full border-b border-gray-400 p-2 focus:outline-none focus:border-green-600 bg-transparent" 
                 />
               </div>
@@ -65,7 +109,9 @@ const Contacto = () => {
                 <input 
                   type="text" 
                   id="lastName" 
-                  name="lastName" 
+                  name="lastName"
+                  value={form.lastName}
+                  onChange={handleChange}
                   className="mt-1 block w-full border-b border-gray-400 p-2 focus:outline-none focus:border-green-600 bg-transparent" 
                 />
               </div>
@@ -80,6 +126,8 @@ const Contacto = () => {
                 type="email" 
                 id="email" 
                 name="email" 
+                value={form.email}
+                onChange={handleChange}
                 required
                 className="mt-1 block w-full border-b border-gray-400 p-2 focus:outline-none focus:border-green-600 bg-transparent" 
               />
@@ -94,6 +142,8 @@ const Contacto = () => {
                 id="message" 
                 name="message" 
                 rows="7" 
+                value={form.message}
+                onChange={handleChange}
                 className="mt-1 block w-full border border-gray-400 p-3 focus:outline-none focus:border-green-600 bg-transparent resize-none"
               ></textarea>
             </div>
