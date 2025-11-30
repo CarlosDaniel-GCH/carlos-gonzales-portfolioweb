@@ -25,15 +25,15 @@ function Contacto(){
                     <a href="" download className='flex justify-center items-center bg-yellow-600 hover:bg-yellow-500 rounded-md w-28 py-1'>Descargar CV</a>
                     <a href="https://web.whatsapp.com/" target='_blank' className='flex justify-center items-center bg-green-600 hover:bg-green-500 rounded-md w-8 py-1'><i className="fa-brands fa-whatsapp"></i></a>
                     <a href="https://www.linkedin.com/in/carlos-daniel-gonzales-chilcon/?originalSubdomain=pe" target='_blank' className='flex justify-center items-center bg-blue-700 hover:bg-blue-600 rounded-md w-8 py-1'><i className="fa-brands fa-linkedin"></i></a>
-                    <a href="https://www.instagram.com/carlosdaniel_store/" target='_blank' className='flex justify-center items-center bg-red-700 hover:bg-red-600 rounded-md w-8 py-1'><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/carlosdaniel_gch22/" target='_blank' className='flex justify-center items-center bg-red-700 hover:bg-red-600 rounded-md w-8 py-1'><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <div className='flex flex-col text-gray-200 py-2 pb-3 mt-2 rounded-lg leading-relaxed bg-zinc-800'>
                     <div className="text-lg pb-2 px-3 ">Contacto:</div>
                     <div className="flex flex-col gap-2 md:text-sm sm:text-lg px-3">
                         <h1 className="text-blue-500">Ciudad: <span className="text-gray-200">Lima</span></h1>
                         <h1 className="text-red-500">Pais: <span className="text-gray-200">Perú</span></h1>
-                        <h1 className="text-green-500">Whattsaap: <span className="text-gray-200">+51 987 654 321</span></h1>
-                        <h1 className="text-yellow-500">Correo: <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span></h1>
+                        {/* <h1 className="text-green-500">Whattsaap: <span className="text-gray-200">+51 987 654 321</span></h1> */}
+                        <h1 className="text-green-500">Correo: <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span></h1>
                     </div>
                 </div>
             </section>
