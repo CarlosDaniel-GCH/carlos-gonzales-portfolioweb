@@ -32,7 +32,6 @@ function Contacto(){
                     <div className="flex flex-col gap-2 md:text-sm sm:text-lg px-3">
                         <h1 className="text-blue-500">Ciudad: <span className="text-gray-200">Lima</span></h1>
                         <h1 className="text-red-500">Pais: <span className="text-gray-200">Perú</span></h1>
-                        {/* <h1 className="text-green-500">Whattsaap: <span className="text-gray-200">+51 987 654 321</span></h1> */}
                         <h1 className="text-green-500">Correo: <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span></h1>
                     </div>
                 </div>
@@ -42,8 +41,8 @@ function Contacto(){
                 <div className='flex flex-col gap-5 text-gray-200'>
                     <div className='text-lg border-b border-zinc-700'>Sobre mi</div>
                     <p className='text-sm text-justify leading-loose'>
-                        Tengo experiencia práctica en el desarrollo de aplicaciones web, implementación de arquitectura monolítica, cliente-servidor y microservicios. 
-                        Dominio de PHP con Laravel, JavaScript con Node.js, HTML, Css + TailwindCSS y MySQL, utilizo Git/GitHub en mis proyectos. 
+                        Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
+                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
                         Busco una posicion como desarrollador backend/fullstack para aplicar mis habilidades sobre soluciones eficientes y escalables.
                         Tengo 22 años y soy graduado de la carrera de Ingenieria de Software con IA en el año 2025 en la institución Senati sede Independencia.
                     </p>

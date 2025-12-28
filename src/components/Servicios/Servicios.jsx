@@ -12,11 +12,11 @@ function Servicios(){
                     <div className="text-4xl rounded-full bg-zinc-700 px-3 py-4">
                         <i className="fas fa-code"></i>
                     </div>
-                    <span className="text-xl py-3 text-center">Diseño de Landing Page</span>
+                    <span className="text-xl py-3 text-center">Diseño de Sitios Web</span>
                     <span className="text-sm text-justify">
                         Creacion de sitios altamente optimizados, diseñadas para impulsar tus ventas, aumentar
                         la visibilidad de tu marca y mejorar la experiencia de tus clientes.
-                        Una landing page representa una inversión inteligente, enfocada en la comodidad del usuario y en el 
+                        Un sitio web representa una inversión inteligente, enfocada en la comodidad del usuario y en el 
                         rendimiento de tu negocio.
                     </span>
                 </div>

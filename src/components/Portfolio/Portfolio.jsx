@@ -16,7 +16,7 @@ function Portfolio(){
                 {/* Logistix Sistema de Gestión de Inventario */}
                 <div className='flex flex-col items-center gap-2 px-2 py-3 bg-zinc-800 rounded-md hover:border-2 hover:border-zinc-400'>
                     <img src={LogistixImagen} alt="Logistix" className='w-80 h-38  rounded-md pt-2'/>
-                    <h1>Logistix Sistema de Gestión- Beni Electric Sac</h1>
+                    <h1>Logistix Sistema de Gestión- Beni Electric SAC</h1>
                 </div>
 
                 <div className='flex flex-col items-center gap-2 px-2 py-3 bg-zinc-800 rounded-md hover:border-2 hover:border-zinc-400'>

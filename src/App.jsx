@@ -21,9 +21,9 @@ function App() {
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 0) {
-        setIsSticky(true); // Scroll > 0 → navbar fijo arriba
+        setIsSticky(true);
       } else {
-        setIsSticky(false); // Scroll en top → navbar en su lugar normal
+        setIsSticky(false); 
       }
     };
 
