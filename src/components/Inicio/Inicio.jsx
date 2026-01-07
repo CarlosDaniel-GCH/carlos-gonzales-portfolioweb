@@ -28,11 +28,22 @@ function Contacto(){
                     <a href="https://www.instagram.com/carlosdaniel_gch22/" target='_blank' className='flex justify-center items-center bg-red-700 hover:bg-red-600 rounded-md w-8 py-1'><i className="fa-brands fa-instagram"></i></a>
                 </div>
                 <div className='flex flex-col text-gray-200 py-2 pb-3 mt-2 rounded-lg leading-relaxed bg-zinc-800'>
-                    <div className="text-lg pb-2 px-3 ">Contacto:</div>
+                    <div className="text-lg pb-2 px-3 ">
+                        Información:
+                    </div>
+
                     <div className="flex flex-col gap-2 md:text-sm sm:text-lg px-3">
-                        <h1 className="text-blue-500">Ciudad: <span className="text-gray-200">Lima</span></h1>
-                        <h1 className="text-red-500">Pais: <span className="text-gray-200">Perú</span></h1>
-                        <h1 className="text-green-500">Correo: <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span></h1>
+                        <div className='flex items-center gap-1'>
+                            <h1 className='py-1 px-2 rounded-md bg-blue-800 text-white'>Ciudad</h1> <span className='text-gray-200'>Lima</span>
+                        </div>
+                        <div className='flex items-center gap-1'>
+                            <h1 className='py-1 px-2 rounded-md bg-red-800 text-white'>País</h1> <span className='text-gray-200'>Perú</span>
+                        </div>
+                        
+                        <div className='flex flex-col items-left gap-1'>
+                            <h1 className="py-1 px-2 max-w-[58px] rounded-md bg-green-800 text-white">Correo</h1>
+                            <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -42,7 +53,7 @@ function Contacto(){
                     <div className='text-lg border-b border-zinc-700'>Sobre mi</div>
                     <p className='text-sm text-justify leading-loose'>
                         Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
-                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
+                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker,Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
                         Busco una posicion como desarrollador backend/fullstack para aplicar mis habilidades sobre soluciones eficientes y escalables.
                         Tengo 22 años y soy graduado de la carrera de Ingenieria de Software con IA en el año 2025 en la institución Senati sede Independencia.
                     </p>
