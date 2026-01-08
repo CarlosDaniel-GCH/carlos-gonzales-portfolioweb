@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Inicio from './components/Inicio/Inicio';
-import Experiencia from './components/Experiencia/Experiencia';
-import Portfolio from './components/Portfolio/Portfolio';
-import Tecnologias from './components/Tecnologias/Tecnologias';
-import Servicios from './components/Servicios/Servicios';
-import Contacto from './components/Contacto/Contacto';
+import Experiencia from './components/Inicio/Experiencia';
+import Portfolio from './components/Inicio/Portfolio';
+import Tecnologias from './components/Inicio/Tecnologias';
+import Servicios from './components/Inicio/Servicios';
+import Contacto from './components/Inicio/Contacto';
 
 function App() {
   // LOGICA DEL MENU LATERAL

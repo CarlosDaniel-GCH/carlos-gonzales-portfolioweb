@@ -6,9 +6,13 @@ import Tailwindcss from '../../assets/Tailwind Logo.png';
 import MySql from '../../assets/MySql Logo.png';
 import JavaScript from '../../assets/JavaScript Logo.png';
 import ReactLogo from '../../assets/React Logo.png';
-import GitGithub from '../../assets/Git-Github.png';
+import Github from '../../assets/GithubLogo.png';
+import Git from '../../assets/GitLogo.png' 
 
-function Contacto(){
+// Componentes
+import Stack from '../Stack';
+
+function Inicio(){
     return(
         <div className='md:flex sm:block gap-10 md:pt-14 sm:pt-8 pt-6'>
 
@@ -62,30 +66,13 @@ function Contacto(){
                 <div className="flex flex-col gap-5">
                     <div className='text-lg text-gray-200 pb-2 border-b border-zinc-700'>Stack Favorito</div>
                     <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 text-gray-200'>
-                        <div className='flex flex-col items-center'>
-                            <img src={LaravelLogo} alt="Laravel" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>Laravel</span>
-                        </div>
-                        <div className='flex flex-col items-center'>
-                            <img src={Tailwindcss} alt="Tailwindcss" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>Tailwindcss</span>
-                        </div>
-                        <div className='flex flex-col items-center'>
-                            <img src={MySql} alt="MySql" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>MySql</span>
-                        </div>
-                        <div className='flex flex-col items-center'>
-                            <img src={JavaScript} alt="JavaScript" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>JavaScript</span>
-                        </div>
-                        <div className='flex flex-col items-center'>
-                            <img src={ReactLogo} alt="React" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>React</span>
-                        </div>
-                        <div className='flex flex-col items-center'>
-                            <img src={GitGithub} alt="" className='rounded-full w-24 h-24 border-2 border-zinc-400'/>
-                            <span>Git/Github</span>
-                        </div>
+                        <Stack name={"React"} image={ReactLogo} alt={"React"} />
+                        <Stack name={"Laravel"} image={LaravelLogo} alt={"Laravel"} />
+                        <Stack name={"Tailwindcss"} image={Tailwindcss} alt={"Tailwindcss"} />
+                        <Stack name={"MySql"} image={MySql} alt={"MySql"} />
+                        <Stack name={"JavaScript"} image={JavaScript} alt={"JavaScript"} />
+                        <Stack name={"Git"} image={Git} alt={"Git"} />
+                        <Stack name={"Github"} image={Github} alt={"Github"} />
                     </div>
                 </div>
             </section>
@@ -93,4 +80,4 @@ function Contacto(){
     )
 }
 
-export default Contacto
+export default Inicio
