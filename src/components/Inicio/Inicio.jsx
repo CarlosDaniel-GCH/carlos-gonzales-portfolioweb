@@ -5,6 +5,7 @@ import LaravelLogo from '../../assets/Laravel Logo.png';
 import Tailwindcss from '../../assets/Tailwind Logo.png';
 import MySql from '../../assets/MySql Logo.png';
 import JavaScript from '../../assets/JavaScript Logo.png';
+import TypeScriptLogo from '../../assets/TypeScriptLogo.png'
 import ReactLogo from '../../assets/React Logo.png';
 import Github from '../../assets/GithubLogo.png';
 import Git from '../../assets/GitLogo.png' 
@@ -64,13 +65,14 @@ function Inicio(){
                 </div>
                 
                 <div className="flex flex-col gap-5">
-                    <div className='text-lg text-gray-200 pb-2 border-b border-zinc-700'>Stack Favorito</div>
+                    <div className='text-lg text-gray-200 mb-5 border-b border-zinc-700'>Stack Favorito</div>
                     <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 text-gray-200'>
                         <Stack name={"React"} image={ReactLogo} alt={"React"} />
                         <Stack name={"Laravel"} image={LaravelLogo} alt={"Laravel"} />
                         <Stack name={"Tailwindcss"} image={Tailwindcss} alt={"Tailwindcss"} />
                         <Stack name={"MySql"} image={MySql} alt={"MySql"} />
                         <Stack name={"JavaScript"} image={JavaScript} alt={"JavaScript"} />
+                        <Stack name={"TypeScript"} image={TypeScriptLogo} alt={"TypeScript"} />
                         <Stack name={"Git"} image={Git} alt={"Git"} />
                         <Stack name={"Github"} image={Github} alt={"Github"} />
                     </div>
