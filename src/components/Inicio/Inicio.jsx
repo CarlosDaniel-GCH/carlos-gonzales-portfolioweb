@@ -58,7 +58,7 @@ function Inicio(){
                     <div className='text-lg border-b border-zinc-700'>Sobre mi</div>
                     <p className='text-sm text-justify leading-loose'>
                         Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
-                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker,Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
+                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
                         Busco una posicion como desarrollador backend/fullstack para aplicar mis habilidades sobre soluciones eficientes y escalables.
                         Tengo 22 años y soy graduado de la carrera de Ingenieria de Software con IA en el año 2025 en la institución Senati sede Independencia.
                     </p>

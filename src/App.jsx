@@ -6,6 +6,9 @@ import Tecnologias from './components/Inicio/Tecnologias';
 import Servicios from './components/Inicio/Servicios';
 import Contacto from './components/Inicio/Contacto';
 
+// Componentes
+import HeaderNavBar from './components/HeaderNavBar';
+
 function App() {
   // LOGICA DEL MENU LATERAL
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -43,12 +46,12 @@ function App() {
         =========================================================
         */}
         <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-8 top-0 z-50" : "relative md:w-full md:max-w-6xl"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-user-shield mr-1"></i> <a href="#inicio">Inicio</a></button>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-trophy mr-1"></i> <a href="#experiencia">Experiencia</a></button>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-images mr-1"></i> <a href="#portfolio">Portfolio</a></button>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-code mr-1"></i> <a href="#tecnologias">Tecnologias</a></button>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-handshake mr-1"></i> <a href="#servicios">Servicios</a></button>
-          <button className="hover:text-zinc-400 transition-colors"><i className="fa-solid fa-paper-plane mr-1"></i> <a href="#contacto">Contact</a></button>
+          <HeaderNavBar title={"Inicio"} icon={<i className="fa-solid fa-user-shield mr-1"></i>} href={"#inicio"} />
+          <HeaderNavBar title={"Experiencia"} icon={<i className="fa-solid fa-trophy mr-1"></i>} href={"#experiencia"} />
+          <HeaderNavBar title={"Portfolio"} icon={<i className="fa-solid fa-images mr-1"></i>} href={"#portfolio"} />
+          <HeaderNavBar title={"Tecnologias"} icon={<i className="fa-solid fa-code mr-1"></i>} href={"#tecnologias"} />
+          <HeaderNavBar title={"Servicios"} icon={<i className="fa-solid fa-handshake mr-1"></i>} href={"#servicios"} />
+          <HeaderNavBar title={"Contact"} icon={<i className="fa-solid fa-paper-plane mr-1"></i>} href={"#contacto"} />
         </div>
         
         {/*
@@ -77,7 +80,7 @@ function App() {
         */}
         <div 
           className={`
-            sm:hidden fixed left-0 top-0 w-64 h-screen bg-zinc-950 z-50 p-4
+            sm:hidden fixed left-0 top-0 w-64 h-screen bg-zinc-900 z-50 p-4
             flex flex-col space-y-4 text-gray-200 shadow-2xl
             transition-transform duration-300 ease-in-out
             ${isMenuOpen ? 'translate-x-0' : ' -translate-x-72 '}
