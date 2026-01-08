@@ -14,13 +14,16 @@ import AstroLogo from '../../assets/Astro Logo.png'
 import LaravelLogo from '../../assets/Laravel Logo.png'
 
 // Componentes
+import TitleComponent from '../TitleComponent';
 import TecnologiasGrid from '../TecnologiasGrid';
 
 function Tecnologias(){
     return(
         <div>
             {/* Titulo */}
-            <div className='text-lg text-gray-200 pb-2 mb-2 border-b border-zinc-700'>Tecnologias</div>
+            <div>
+                <TitleComponent title={"Tecnologias"} />
+            </div>
 
             {/* Lista de Tecnologias */}
             <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-3 pt-5 md:text-sm sm:text-base text-base text-gray-200">

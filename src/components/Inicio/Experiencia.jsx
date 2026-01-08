@@ -4,14 +4,15 @@ import BeniElectricSac from '../../assets/BeniElectricSac.png';
 import SolucionesIntegralesJB from '../../assets/SolucionesIntegralesJB.jpeg';
 
 // Componentes
+import TitleComponent from '../TitleComponent';
 import ExperienciaCard from '../ExperienciaCard';
 
 function Experiencia(){
     return(
         <div className='flex flex-col gap-5'>
             {/* Titulo */}
-            <div className='text-lg text-gray-200 pb-2 mb-2 border-b border-zinc-700'>
-                Experiencia
+            <div>
+                <TitleComponent title={"Experiencia"} />
             </div>
 
             {/* Experiencia */}

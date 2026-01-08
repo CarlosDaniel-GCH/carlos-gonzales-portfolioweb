@@ -1,11 +1,14 @@
 import React from 'react';
+import TitleComponent from '../TitleComponent';
 import ServiceGrid from '../ServiceGrid';
 
 function Servicios(){
     return(
         <div className="flex flex-col gap-5 text-gray-200">
             {/* Titulo */}
-            <div className='text-lg pb-2 mb-2 border-b border-zinc-700'>Servicios</div>
+            <div>
+                <TitleComponent title={"Servicios"} />
+            </div>
 
             {/* Servicios Disponibles */}
             <div className="grid md:grid-cols-2 sm:grid-cols-1 grid-cols-1 gap-3">

@@ -11,6 +11,7 @@ import Github from '../../assets/GithubLogo.png';
 import Git from '../../assets/GitLogo.png' 
 
 // Componentes
+import TitleComponent from '../TitleComponent'
 import Stack from '../Stack';
 
 function Inicio(){
@@ -54,8 +55,9 @@ function Inicio(){
             </section>
 
             <section className='flex flex-col gap-12 md:pt-1 sm:pt-1 pt-10 w-full py-4'>
-                <div className='flex flex-col gap-5 text-gray-200'>
-                    <div className='text-lg border-b border-zinc-700'>Sobre mi</div>
+                <div className='flex flex-col gap-3 text-gray-200'>
+                    <TitleComponent title={"Sobre mi"} />
+                    
                     <p className='text-sm text-justify leading-loose'>
                         Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
                         Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
@@ -64,8 +66,9 @@ function Inicio(){
                     </p>
                 </div>
                 
-                <div className="flex flex-col gap-5">
-                    <div className='text-lg text-gray-200 mb-5 border-b border-zinc-700'>Stack Favorito</div>
+                <div className="flex flex-col gap-8">
+                    <TitleComponent title={"Stack Favorito"} />
+
                     <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 text-gray-200'>
                         <Stack name={"React"} image={ReactLogo} alt={"React"} />
                         <Stack name={"Laravel"} image={LaravelLogo} alt={"Laravel"} />

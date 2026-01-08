@@ -1,10 +1,13 @@
 import React from 'react';
+import TitleComponent from '../TitleComponent';
 
 const Contacto = () => {
   return (
     <div className="flex flex-col gap-10 text-gray-200">
       {/* Titulo */}
-      <div className='text-lg text-gray-200 pb-2 mb-2 border-b border-zinc-700'>Contacto</div>
+      <div>
+        <TitleComponent title={"Contacto"} />
+      </div>
               
       {/* Texto e Información de Contacto */}
       <div className="flex flex-col pb-8">
