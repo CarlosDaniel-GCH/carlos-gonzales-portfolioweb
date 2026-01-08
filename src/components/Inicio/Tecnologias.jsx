@@ -13,6 +13,9 @@ import Tailwindcss from '../../assets/Tailwind Logo.png';
 import AstroLogo from '../../assets/Astro Logo.png'
 import LaravelLogo from '../../assets/Laravel Logo.png'
 
+// Componentes
+import TecnologiasGrid from '../TecnologiasGrid';
+
 function Tecnologias(){
     return(
         <div>
@@ -21,78 +24,18 @@ function Tecnologias(){
 
             {/* Lista de Tecnologias */}
             <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-3 pt-5 md:text-sm sm:text-base text-base text-gray-200">
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={ReactLogo} alt="React" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">React</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={AstroLogo} alt="Astro" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Astro</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={LaravelLogo} alt="Laravel" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Laravel</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Php} alt="Php" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Php</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={JavaScript} alt="JavaScript" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">JavaScript</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={MySql} alt="MySql" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">MySql</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={MongoDB} alt="MongoDB" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">MongoDB</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Laragon} alt="Laragon" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Laragon</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Docker} alt="Docker" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Docker</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Java} alt="Java" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Java</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Python} alt="Python" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Python</h1>
-                </div>
-                <div className="flex flex-col items-center rounded-lg bg-zinc-800 p-3 pt-4 hover:border-2 hover:border-zinc-400">
-                    <div className="size-full">
-                        <img src={Tailwindcss} alt="Tailwindcss" className="size-full rounded-lg"/>
-                    </div>
-                    <h1 className="pt-2">Tailwindcss</h1>
-                </div>
+                <TecnologiasGrid title={"React"} image={ReactLogo} />
+                <TecnologiasGrid title={"Astro"} image={AstroLogo} />
+                <TecnologiasGrid title={"Laravel"} image={LaravelLogo} />
+                <TecnologiasGrid title={"PHP"} image={Php} />
+                <TecnologiasGrid title={"JavaScript"} image={JavaScript} />
+                <TecnologiasGrid title={"MySql"} image={MySql} />
+                <TecnologiasGrid title={"MongoDB"} image={MongoDB} />
+                <TecnologiasGrid title={"Laragon"} image={Laragon} />
+                <TecnologiasGrid title={"Docker"} image={Docker} />
+                <TecnologiasGrid title={"Java"} image={Java} />
+                <TecnologiasGrid title={"Python"} image={Python} />
+                <TecnologiasGrid title={"Tailwindcss"} image={Tailwindcss} />
             </div>
         </div>
     )
