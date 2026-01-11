@@ -1,7 +1,7 @@
 import React from 'react';
 
 import fotoPerfil from '../../assets/Foto de perfil.jpeg';
-import { StackFavorito } from '../../lib/tecnologias';
+import { StackFavorito } from '../../lib/stackFavorito';
 
 // Componentes
 import TitleComponent from '../TitleComponent'

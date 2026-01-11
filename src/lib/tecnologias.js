@@ -1,59 +1,75 @@
-import ReactLogo from '../assets/React Logo.png'
-import LaravelLogo from '../assets/Laravel Logo.png'
-import Tailwindcss from '../assets/Tailwind Logo.png'
-import MySql from '../assets/MySql Logo.png'
+import React from '../assets/React Logo.png'
+import Astro from '../assets/Astro Logo.png'
+import Laravel from '../assets/Laravel Logo.png'
+import Php from '../assets/php Logo.png'
 import JavaScript from '../assets/JavaScript Logo.png'
-import TypeScriptLogo from '../assets/TypeScriptLogo.png'
-import Git from '../assets/GitLogo.png'
-import Github from '../assets/GithubLogo.png'
+import MySql from '../assets/MySql Logo.png'
+import MongoDB from '../assets/MongoDB Logo.png'
+import Laragon from '../assets/Laragon Logo.jpeg'
+import Docker from '../assets/Docker Logo.png'
+import Java from '../assets/Java Logo.png'
+import Python from '../assets/Python Logo.jpeg'
+import Tailwindcss from '../assets/Tailwind Logo.png'
 
-export const StackFavorito = [
+export const tecnologias = [
     {
         id : "1",
-        name : "React",
-        alt : "React",
-        image : ReactLogo
+        title : "React",
+        image : React
     },
     {
         id : "2",
-        name : "Laravel",
-        alt : "Laravel",
-        image : LaravelLogo
+        title : "Astro",
+        image : Astro
     },
     {
         id : "3",
-        name : "Tailwindcss",
-        alt : "Tailwindcss",
-        image : Tailwindcss
+        title : "Laravel",
+        image : Laravel
     },
     {
         id : "4",
-        name : "MySql",
-        alt : "MySql",
-        image : MySql
+        title : "PHP",
+        image : Php
     },
     {
         id : "5",
-        name : "JavaScript",
-        alt : "JavaScript",
+        title : "JavaScript",
         image : JavaScript
     },
     {
         id : "6",
-        name : "TypeScript",
-        alt : "TypeScript",
-        image : TypeScriptLogo
+        title : "MySql",
+        image : MySql
     },
     {
         id : "7",
-        name : "Git",
-        alt : "Git",
-        image : Git
+        title : "MongoDB",
+        image : MongoDB
     },
     {
         id : "8",
-        name : "Github",
-        alt : "Github",
-        image : Github
+        title : "Laragon",
+        image : Laragon
+    },
+    {
+        id : "9",
+        title : "Docker",
+        image : Docker
+    },
+    {
+        id : "10",
+        title : "Java",
+        image : Java
+    },
+    {
+        id : "11",
+        title : "Python",
+        image : Python
+    },
+    {
+        id : "12",
+        title : "Tailwindcss",
+        image : Tailwindcss
     }
-]
+];
