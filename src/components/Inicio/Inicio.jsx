@@ -1,14 +1,7 @@
 import React from 'react';
-// Importando Imagenes
+
 import fotoPerfil from '../../assets/Foto de perfil.jpeg';
-import LaravelLogo from '../../assets/Laravel Logo.png';
-import Tailwindcss from '../../assets/Tailwind Logo.png';
-import MySql from '../../assets/MySql Logo.png';
-import JavaScript from '../../assets/JavaScript Logo.png';
-import TypeScriptLogo from '../../assets/TypeScriptLogo.png'
-import ReactLogo from '../../assets/React Logo.png';
-import Github from '../../assets/GithubLogo.png';
-import Git from '../../assets/GitLogo.png' 
+import { StackFavorito } from '../../lib/tecnologias';
 
 // Componentes
 import TitleComponent from '../TitleComponent'
@@ -69,15 +62,15 @@ function Inicio(){
                 <div className="flex flex-col gap-8">
                     <TitleComponent title={"Stack Favorito"} />
 
-                    <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 text-gray-200'>
-                        <Stack name={"React"} image={ReactLogo} alt={"React"} />
-                        <Stack name={"Laravel"} image={LaravelLogo} alt={"Laravel"} />
-                        <Stack name={"Tailwindcss"} image={Tailwindcss} alt={"Tailwindcss"} />
-                        <Stack name={"MySql"} image={MySql} alt={"MySql"} />
-                        <Stack name={"JavaScript"} image={JavaScript} alt={"JavaScript"} />
-                        <Stack name={"TypeScript"} image={TypeScriptLogo} alt={"TypeScript"} />
-                        <Stack name={"Git"} image={Git} alt={"Git"} />
-                        <Stack name={"Github"} image={Github} alt={"Github"} />
+                    <div className='grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-8 text-gray-200'>                        
+                        {
+                            StackFavorito.map((data) => {
+                                return (
+                                    <Stack name={data.name} image={data.image} alt={data.alt} />
+                                );
+                            })
+                        }
+                        
                     </div>
                 </div>
             </section>
