@@ -19,8 +19,8 @@ function Tecnologias(){
                         return(
                             <TecnologiasGrid
                                 key={items.id} 
-                                title={items.title} 
-                                image={items.image} 
+                                title={items.title}
+                                image={items.image}
                             />
                         );
                     })
