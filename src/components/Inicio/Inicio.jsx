@@ -33,14 +33,14 @@ function Inicio(){
 
                     <div className="flex flex-col gap-2 md:text-sm sm:text-lg px-3">
                         <div className='flex items-center gap-1'>
-                            <h1 className='py-1 px-2 rounded-md bg-blue-800 text-white'>Ciudad</h1> <span className='text-gray-200'>Lima</span>
+                            <h1 className='flex justify-center py-1 px-2 rounded-md bg-blue-800 text-white'>Ciudad</h1> <span className='text-gray-200'>Lima</span>
                         </div>
                         <div className='flex items-center gap-1'>
-                            <h1 className='py-1 px-2 rounded-md bg-red-800 text-white'>País</h1> <span className='text-gray-200'>Perú</span>
+                            <h1 className='flex justify-center py-1 px-2 rounded-md bg-red-800 text-white'>País</h1> <span className='text-gray-200'>Perú</span>
                         </div>
                         
                         <div className='flex flex-col items-left gap-1'>
-                            <h1 className="py-1 px-2 max-w-[58px] rounded-md bg-green-800 text-white">Correo</h1>
+                            <h1 className="flex justify-center py-1 px-2 max-w-[58px] rounded-md bg-green-800 text-white">Correo</h1>
                             <span className="text-gray-200">carlosdanielchilcon19@gmail.com</span>
                         </div>
                     </div>
@@ -66,11 +66,10 @@ function Inicio(){
                         {
                             StackFavorito.map((data) => {
                                 return (
-                                    <Stack name={data.name} image={data.image} alt={data.alt} />
+                                    <Stack key={data.id} name={data.name} image={data.image} alt={data.alt} />
                                 );
                             })
                         }
-                        
                     </div>
                 </div>
             </section>

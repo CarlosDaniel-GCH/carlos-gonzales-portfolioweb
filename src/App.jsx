@@ -6,6 +6,8 @@ import Tecnologias from './components/Inicio/Tecnologias';
 import Servicios from './components/Inicio/Servicios';
 import Contacto from './components/Inicio/Contacto';
 
+import { navbarItems } from './lib/navbar';
+
 // Componentes
 import HeaderNavBar from './components/HeaderNavBar';
 
@@ -46,12 +48,13 @@ function App() {
         =========================================================
         */}
         <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-8 top-0 z-50" : "relative md:w-full md:max-w-6xl"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
-          <HeaderNavBar title={"Inicio"} icon={<i className="fa-solid fa-user-shield mr-1"></i>} href={"#inicio"} />
-          <HeaderNavBar title={"Experiencia"} icon={<i className="fa-solid fa-trophy mr-1"></i>} href={"#experiencia"} />
-          <HeaderNavBar title={"Portfolio"} icon={<i className="fa-solid fa-images mr-1"></i>} href={"#portfolio"} />
-          <HeaderNavBar title={"Tecnologias"} icon={<i className="fa-solid fa-code mr-1"></i>} href={"#tecnologias"} />
-          <HeaderNavBar title={"Servicios"} icon={<i className="fa-solid fa-handshake mr-1"></i>} href={"#servicios"} />
-          <HeaderNavBar title={"Contact"} icon={<i className="fa-solid fa-paper-plane mr-1"></i>} href={"#contacto"} />
+          {
+            navbarItems.map( (items) => {
+              return(
+                <HeaderNavBar key={items.id} title={items.title} icon={<i className={items.icon}></i>} href={items.href} />
+              );
+            })
+          }
         </div>
         
         {/*
