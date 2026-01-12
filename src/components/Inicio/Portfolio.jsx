@@ -26,6 +26,7 @@ function Portfolio(){
                                 alt={items.al}
                                 image={items.image}
                                 status={items.status}
+                                url={items.url}
                             />
                         );
                     })

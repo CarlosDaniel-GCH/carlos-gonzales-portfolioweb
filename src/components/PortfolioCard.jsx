@@ -1,4 +1,4 @@
-function PortfolioCard({ title, company, alt, image, status }) {
+function PortfolioCard({ title, company, alt, image, status, url }) {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-xl bg-zinc-800 border border-zinc-800 transition-all duration-300 hover:border-zinc-700 hover:shadow-2xl hover:shadow-blue-500/10">
       <div className="overflow-hidden">
@@ -21,7 +21,15 @@ function PortfolioCard({ title, company, alt, image, status }) {
 
         <div className="mt-4 flex items-center gap-2">
           <span className="h-px flex-1 bg-zinc-700 group-hover:bg-zinc-600 transition-colors"></span>
-          <span className="text-[10px] text-zinc-500 uppercase font-bold tracking-tighter cursor-pointer hover:text-zinc-300">{status}</span>
+          <span className="text-[10px] text-zinc-500 uppercase font-bold tracking-tighter cursor-pointer">
+            {url ? (
+              <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300">
+                {status}
+              </a>
+            ) : (
+              status
+            )}
+          </span>
         </div>
       </div>
     </div>
