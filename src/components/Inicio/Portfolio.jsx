@@ -22,8 +22,10 @@ function Portfolio(){
                             <PortfolioCard
                                 key={items.id}
                                 title={items.title}
+                                company={items.company}
                                 alt={items.al}
                                 image={items.image}
+                                status={items.status}
                             />
                         );
                     })

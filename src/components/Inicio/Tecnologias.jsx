@@ -21,6 +21,7 @@ function Tecnologias(){
                                 key={items.id} 
                                 title={items.title}
                                 image={items.image}
+                                alt={items.alt}
                             />
                         );
                     })

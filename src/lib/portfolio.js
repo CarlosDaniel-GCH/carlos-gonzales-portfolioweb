@@ -6,26 +6,34 @@ import BeniElectricLandingPage from '../assets/BeniElectricLandingPage.png'
 export const portfolioItems = [
     {
         id : "1",
-        title : "Logistix Sistema de Gestión- Beni Electric SAC",
+        title : "Logistix Sistema de Gestión",
+        company: "Corporación Beni Electric SAC",
         alt : "Logistix",
-        image : LogistixImagen
+        image : LogistixImagen,
+        status : "Proyecto Privado"
     },
     {
         id : "2",
-        title : "E-commerce - Soluciones Integrales JB",
+        title : "E-commerce",
+        company: "Soluciones Integrales JB",
         alt : "E-commerce JB",
-        image : SolucionesIntegralesImagen
+        image : SolucionesIntegralesImagen,
+        status : "Proyecto Privado"
     },
     {
         id : "3",
-        title : "MyWallet - Proyecto Personal",
+        title : "MyWallet",
+        company : "Proyecto Personal",
         alt : "MyWallet",
-        image : MyWalletImagen
+        image : MyWalletImagen,
+        status : "Proyecto Privado"
     },
     {
         id : "4",
-        title : "Landing Page - Beni Electric SAC",
+        title : "Landing Page",
+        company : "Corporación Beni Electric SAC",
         alt : "Landing Page Beni Electric",
-        image : BeniElectricLandingPage
+        image : BeniElectricLandingPage,
+        status : "Proyecto Privado"
     }
 ];

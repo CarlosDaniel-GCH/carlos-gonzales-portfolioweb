@@ -15,61 +15,73 @@ export const tecnologias = [
     {
         id : "1",
         title : "React",
-        image : React
+        image : React,
+        alt : "React"
     },
     {
         id : "2",
         title : "Astro",
-        image : Astro
+        image : Astro,
+        alt : "Astro"
     },
     {
         id : "3",
         title : "Laravel",
-        image : Laravel
+        image : Laravel,
+        alt : "Laravel"
     },
     {
         id : "4",
         title : "PHP",
-        image : Php
+        image : Php,
+        alt : "PHP"
     },
     {
         id : "5",
         title : "JavaScript",
-        image : JavaScript
+        image : JavaScript,
+        alt : "JavaScript"
     },
     {
         id : "6",
         title : "MySql",
-        image : MySql
+        image : MySql,
+        alt : "MySql"
     },
     {
         id : "7",
         title : "MongoDB",
-        image : MongoDB
+        image : MongoDB,
+        alt : "MongoDB"
     },
     {
         id : "8",
         title : "Laragon",
-        image : Laragon
+        image : Laragon,
+        alt : "Laragon"
     },
     {
         id : "9",
         title : "Docker",
-        image : Docker
+        image : Docker,
+        alt : "Docker"
     },
     {
         id : "10",
         title : "Java",
-        image : Java
+        image : Java,
+        alt : "Java"
     },
     {
         id : "11",
         title : "Python",
-        image : Python
+        image : Python,
+        alt : "Python"
     },
     {
         id : "12",
         title : "Tailwindcss",
-        image : Tailwindcss
+        image : Tailwindcss,
+        alt : "Tailwindcss"
     }
 ];
