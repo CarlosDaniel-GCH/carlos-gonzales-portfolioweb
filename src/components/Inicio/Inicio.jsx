@@ -18,7 +18,7 @@ function Inicio(){
                     </div>
                 </div>
                 <div className='border-b border-zinc-700'>
-                    <span className="flex justify-center text-xl text-gray-200 pb-3">Carlos Daniel Gonzales Chilcon</span>
+                    <span className="flex justify-center text-xl text-gray-200 pb-3 cursor-context-menu">Carlos Daniel Gonzales Chilcon</span>
                 </div>
                 <div className='flex flex-row justify-evenly text-gray-200 text-sm p-2 mt-2 rounded-lg leading-relaxed bg-zinc-800 gap-2'>
                     <a href="" download className='flex justify-center items-center bg-yellow-600 hover:bg-yellow-500 rounded-md w-28 py-1'>Descargar CV</a>
@@ -26,7 +26,7 @@ function Inicio(){
                     <a href="https://www.linkedin.com/in/carlos-daniel-gonzales-chilcon/?originalSubdomain=pe" target='_blank' className='flex justify-center items-center bg-blue-700 hover:bg-blue-600 rounded-md w-8 py-1'><i className="fa-brands fa-linkedin"></i></a>
                     <a href="https://www.instagram.com/carlosdaniel_gch22/" target='_blank' className='flex justify-center items-center bg-red-700 hover:bg-red-600 rounded-md w-8 py-1'><i className="fa-brands fa-instagram"></i></a>
                 </div>
-                <div className='flex flex-col text-gray-200 py-2 pb-3 mt-2 rounded-lg leading-relaxed bg-zinc-800'>
+                <div className='flex flex-col text-gray-200 py-2 pb-3 mt-2 rounded-lg leading-relaxed bg-zinc-800 cursor-context-menu'>
                     <div className="text-lg pb-2 px-3 ">
                         Información:
                     </div>
@@ -51,7 +51,7 @@ function Inicio(){
                 <div className='flex flex-col gap-3 text-gray-200'>
                     <TitleComponent title={"Sobre mi"} />
                     
-                    <p className='text-sm text-justify leading-loose'>
+                    <p className='text-sm text-justify leading-loose cursor-context-menu'>
                         Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
                         Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
                         Busco una posicion como desarrollador backend/fullstack para aplicar mis habilidades sobre soluciones eficientes y escalables.

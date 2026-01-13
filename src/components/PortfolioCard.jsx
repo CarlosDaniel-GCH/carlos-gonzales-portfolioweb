@@ -10,7 +10,7 @@ function PortfolioCard({ title, company, alt, image, status, url }) {
       </div>
 
       <div className="p-5">
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 cursor-context-menu">
           <p className="text-xs font-medium uppercase tracking-wider text-zinc-400">
             {company}
           </p>
@@ -21,9 +21,9 @@ function PortfolioCard({ title, company, alt, image, status, url }) {
 
         <div className="mt-4 flex items-center gap-2">
           <span className="h-px flex-1 bg-zinc-700 group-hover:bg-zinc-600 transition-colors"></span>
-          <span className="text-[10px] text-zinc-500 uppercase font-bold tracking-tighter cursor-pointer">
+          <span className="text-[10px] text-zinc-500 uppercase font-bold tracking-tighter cursor-context-menu">
             {url ? (
-              <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300">
+              <a href={url} target="_blank" rel="noopener noreferrer" className="hover:text-zinc-300 cursor-pointer">
                 {status}
               </a>
             ) : (

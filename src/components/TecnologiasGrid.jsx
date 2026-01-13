@@ -4,7 +4,7 @@ function TecnologiasGrid({ title, image, alt }) {
         <div className="size-full">
           <img src={image} alt={alt} className="size-full rounded-lg" />
         </div>
-        <h1 className="pt-2 text-base text-zinc-100">{title}</h1>
+        <h1 className="pt-2 text-base text-zinc-100 cursor-context-menu">{title}</h1>
     </div>
   );
 }
