@@ -16,6 +16,7 @@ export const portfolioItems = [
         alt : "Logistix",
         image : LogistixImagen,
         status : "Proyecto Privado",
+        description : "Sistema de Gestión de Inventario desarrollado para la Corporación Beni Electric SAC con el objetivo de mejorar la gestión de su inventario e incrementar sus ganancias a futuro.",
         url : ""
     },
     {
@@ -25,6 +26,7 @@ export const portfolioItems = [
         alt : "E-commerce JB",
         image : SolucionesIntegralesImagen,
         status : "Proyecto Privado",
+        description : "Un carrito de compras desarrollado para la empresa Soluciones Integrales JB",
         url : ""
     },
     {
@@ -34,6 +36,7 @@ export const portfolioItems = [
         alt : "MyWallet",
         image : MyWalletImagen,
         status : "Proyecto Privado",
+        description : "Mi primer proyecto personal desarrollado con el objetivo de mejorar la gestion de mis finanzas personales.",
         url : ""
     },
     {
@@ -43,6 +46,7 @@ export const portfolioItems = [
         alt : "API UFC",
         image : APIUFC,
         status : "Ver Proyecto",
+        description : "Como fan de las MMA decidi desarrollar un proyecto para consumir la API de UFC y cargar dinamicamente la web con la información extraida.",
         url : "https://github.com/CarlosDaniel-GCH/api-ufc"
     },
     {
@@ -52,6 +56,7 @@ export const portfolioItems = [
         alt : "Fernanditostore.com",
         image : FernanditoStoreReact,
         status : "Ver Proyecto",
+        description : "Fernanditostore.com es un proyecto de ecommerce con el objetivo de mejorar mi manejo de Laravel y React.",
         url : "https://github.com/CarlosDaniel-GCH/fernandito-store"
     },
     {
@@ -61,6 +66,7 @@ export const portfolioItems = [
         alt : "Generador de Tickets",
         image : GeneradorTickets,
         status : "Ver Proyecto",
+        description : "Un generador de PDF desarrollado con React con el objetivo de aprender a utilizar la libreria de React PDF",
         url : "https://github.com/CarlosDaniel-GCH/Generador-tickets"
     },
     {
@@ -70,6 +76,7 @@ export const portfolioItems = [
         alt : "InnoVentas - Chatbot",
         image : InnoVentasChatbot,
         status : "Ver Proyecto",
+        description : "InnoVentas es un proyecto que hice para aprender a implementar un agente de IA en una pagina web.",
         url : "https://github.com/CarlosDaniel-GCH/InnovVentas_chatbot"
     },
     {
@@ -79,6 +86,7 @@ export const portfolioItems = [
         alt : "Fernandito Store",
         image : FernanditoStoreV1,
         status : "Ver Proyecto",
+        description : "Fernandito Store es un proyecto hecho con tecnologias nativas con Login, Register, Favoritos, Pagina de inicio e incluye toast para las acciones del programa.",
         url : "https://github.com/CarlosDaniel-GCH/FernanditoStore-ProyectoFullStack"
     },
     {
@@ -88,6 +96,7 @@ export const portfolioItems = [
         alt : "Landing Page Beni Electric",
         image : BeniElectricLandingPage,
         status : "Proyecto Privado",
+        description : "Una landing page desarrollada para mejorar la visibilidad de la empresa Corporación Beni Electric SAC",
         url : ""
     }
 ];

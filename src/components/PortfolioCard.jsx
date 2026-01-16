@@ -1,6 +1,6 @@
-function PortfolioCard({ title, company, alt, image, status, url }) {
+function PortfolioCard({ title, company, alt, image, status, url, onClick  }) {
   return (
-    <div className="group relative flex flex-col overflow-hidden rounded-xl bg-zinc-800 border border-zinc-800 transition-all duration-300 hover:border-zinc-700 hover:shadow-2xl hover:shadow-blue-500/10">
+    <div onClick={onClick} className="group relative flex flex-col overflow-hidden rounded-xl bg-zinc-800 border border-zinc-800 transition-all duration-300 hover:border-zinc-700 hover:shadow-2xl hover:shadow-blue-500/10">
       <div className="overflow-hidden">
         <img
           src={image}
