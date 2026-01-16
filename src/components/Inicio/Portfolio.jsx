@@ -35,7 +35,7 @@ function Portfolio(){
                                 title={items.title}
                                 company={items.company}
                                 alt={items.al}
-                                image={items.image}
+                                image={items.image[0]}
                                 status={items.status}
                                 url={items.url}
                                 onClick={() => openModal(items)}
