@@ -81,7 +81,7 @@ function PortfolioModal({ project, onClose }) {
                     {project.company}
                 </p>
 
-                <p className="text-gray-300 text-sm mt-4 mb-7">
+                <p className="text-gray-300 text-sm mt-3 mb-5">
                     {project.description}
                 </p>
 

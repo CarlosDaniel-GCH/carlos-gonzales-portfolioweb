@@ -69,7 +69,7 @@ export const portfolioItems = [
         alt : "Logistix",
         image : [LogistixImagen, LoginLogistix, CategoriasLogistix, ProductosLogistix, ComprasLogistix],
         status : "Proyecto Privado",
-        description : "Sistema de Gestión de Inventario desarrollado para la Corporación Beni Electric SAC con el objetivo de mejorar la gestión de su inventario e incrementar sus ganancias a futuro.",
+        description : "Solución personalizada para la gestión logística que automatiza el registro de entradas y salidas de mercancía. Desarrollado para reducir errores manuales y garantizar un control preciso del stock, facilitando la escalabilidad del negocio.",
         url : "",
         icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
@@ -80,7 +80,7 @@ export const portfolioItems = [
         alt : "E-commerce JB",
         image : [ecommerceJB, ModalProducto1, ModalProducto2],
         status : "Proyecto Privado",
-        description : "Un carrito de compras desarrollado para la empresa Soluciones Integrales JB",
+        description : "Como parte del equipo de desarrollo, colaboré en la creación de esta plataforma de comercio electrónico, enfocándome en la implementación del carrito de compras y la integración con la base de datos. Trabajamos bajo un enfoque de desarrollo ágil para entregar una solución robusta y escalable para la empresa.",
         url : "",
         icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
@@ -91,7 +91,7 @@ export const portfolioItems = [
         alt : "MyWallet",
         image : [Dashboard, PantallaCarga, LoginMyWallet, TransaccionesMyWallet],
         status : "Proyecto Privado",
-        description : "Mi primer proyecto personal desarrollado con el objetivo de mejorar la gestion de mis finanzas personales.",
+        description : "Software de finanzas personales con capacidades de monitoreo en tiempo real. Incluye un panel de control (dashboard) para la visualización de datos, gestión de transacciones y un sistema organizado de categorías y perfiles de usuario.",
         url : "",
         icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
@@ -102,7 +102,7 @@ export const portfolioItems = [
         alt : "API UFC",
         image : [Rankings, Inicio, Peleadores],
         status : "Ver Proyecto",
-        description : "Como fan de las MMA decidi desarrollar un proyecto para consumir la API de UFC y cargar dinamicamente la web con la información extraida.",
+        description : "Como fan de las MMA cree esta web que utiliza React y Tailwind CSS para procesar y mostrar datos complejos extraídos de una API externa. Implementé lógica de filtrado y mapeo dinámico para organizar la información de peleadores y posiciones globales, priorizando la velocidad de carga y una interfaz de usuario moderna.",
         url : "https://github.com/CarlosDaniel-GCH/api-ufc",
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
@@ -113,7 +113,7 @@ export const portfolioItems = [
         alt : "Fernanditostore.com",
         image : [Categorias1, Categorias2, Favoritos, InicioFernanditoStore],
         status : "Ver Proyecto",
-        description : "Fernanditostore.com es un proyecto de ecommerce con el objetivo de mejorar mi manejo de Laravel y React.",
+        description : "E-commerce robusto enfocado en la experiencia de usuario y la gestión de inventario. El sistema permite la visualización dinámica de artículos, administración de estados del carrito y una sección personalizada de favoritos. Construido con una arquitectura desacoplada utilizando Laravel como API y React para el Frontend.",
         url : "https://github.com/CarlosDaniel-GCH/fernandito-store",
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon]
     },
@@ -124,7 +124,7 @@ export const portfolioItems = [
         alt : "Generador de Tickets",
         image : [Formulario, Entrada],
         status : "Ver Proyecto",
-        description : "Un generador de PDF desarrollado con React con el objetivo de aprender a utilizar la libreria de React PDF",
+        description : "Aplicación desarrollada con React para la gestión y exportación de datos en formato PDF. Implementé la librería @react-pdf/renderer para transformar entradas de usuario en documentos estructurados, aplicando técnicas de maquetación precisas para replicar fielmente el diseño de un ticket físico.",
         url : "https://github.com/CarlosDaniel-GCH/Generador-tickets",
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
@@ -135,7 +135,7 @@ export const portfolioItems = [
         alt : "InnoVentas - Chatbot",
         image : [ChatBot1, ChatBot2, ChatBot3],
         status : "Ver Proyecto",
-        description : "InnoVentas es un proyecto que hice para aprender a implementar un agente de IA en una pagina web.",
+        description : "Plataforma interactiva centrada en la integración de un agente de inteligencia artificial para la optimización de ventas y atención al cliente. Desarrollé la lógica del chatbot utilizando Python para el procesamiento de lenguaje, integrándolo en una interfaz moderna y desplegando el entorno completo mediante Docker para asegurar portabilidad y escalabilidad.",
         url : "https://github.com/CarlosDaniel-GCH/InnovVentas_chatbot",
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon, DockerIcon, PythonIcon]
     },
@@ -146,7 +146,7 @@ export const portfolioItems = [
         alt : "Fernandito Store",
         image : [FernanditoStoreV1, LoginFernanditoStore, Register, Toast, FavoritosFernanditoStore],
         status : "Ver Proyecto",
-        description : "Fernandito Store es un proyecto hecho con tecnologias nativas con Login, Register, Favoritos, Pagina de inicio e incluye toast para las acciones del programa.",
+        description : "Plataforma de comercio electrónico Full Stack desarrollada con tecnologías nativas para garantizar un control total sobre la lógica del servidor y la base de datos. Implementé un sistema robusto de autenticación (Login/Registro), gestión de sesiones y una funcionalidad de favoritos, integrando notificaciones tipo 'toast' para mejorar la respuesta al usuario ante cada acción.",
         url : "https://github.com/CarlosDaniel-GCH/FernanditoStore-ProyectoFullStack",
         icon : [PhpIcon, CssIcon, JavascriptIcon, MySQLIcon]
     },
@@ -157,7 +157,7 @@ export const portfolioItems = [
         alt : "Landing Page Beni Electric",
         image : [LandingBeniElectric1, LandingBeniElectric2, LandingBeniElectric3, LandingBeniElectric4, Servicio1, Servicio2, Servicio3],
         status : "Proyecto Privado",
-        description : "Una landing page desarrollada para mejorar la visibilidad de la empresa Corporación Beni Electric SAC",
+        description : "Desarrollo frontend de una Landing Page corporativa utilizando React y Tailwind CSS para garantizar un rendimiento óptimo y tiempos de carga mínimos. Implementé una arquitectura de componentes modulares y un diseño totalmente responsivo, asegurando que la identidad visual de la empresa se mantenga consistente en cualquier dispositivo.",
         url : "",
         icon : [ReactIcon, TailwindcssIcon]
     },
@@ -168,7 +168,7 @@ export const portfolioItems = [
         alt : "Lista Libros",
         image : [Libros, BuscarLibro, AgregarLibro, EditarLibro, EliminarLibro],
         status : "Ver Proyecto",
-        description : "Un proyecto Fullstack para agregar, editar, buscar y eliminar libros de una lista.",
+        description : "Aplicación Full Stack robusta para la gestión de catálogos bibliográficos, desarrollada con un enfoque en la integridad de datos. Implementé un sistema CRUD completo con relaciones entre tablas de libros y categorías, utilizando TypeScript para garantizar un código mantenible y escalable, junto a un backend sólido en Laravel.",
         url : "",
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon]
     }
