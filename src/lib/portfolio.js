@@ -43,6 +43,24 @@ import Servicio1 from '../assets/Landing Page/Servicio1.png'
 import Servicio2 from '../assets/Landing Page/Servicio2.png'
 import Servicio3 from '../assets/Landing Page/Servicio3.png'
 
+import Libros from '../assets/ListoLibros/Libros.png'
+import BuscarLibro from '../assets/ListoLibros/BuscarLibro.png'
+import AgregarLibro from '../assets/ListoLibros/AgregarLibro.png'
+import EditarLibro from '../assets/ListoLibros/EditarLibro.png'
+import EliminarLibro from '../assets/ListoLibros/EliminarLibro.png'
+
+// Icons
+import PhpIcon from '../assets/Icons/PhpIcon.png'
+import JavascriptIcon from '../assets/Icons/JavascriptIcon.png'
+import MySQLIcon from '../assets/Icons/MySQLIcon.png'
+import CssIcon from '../assets/Icons/CssIcon.png'
+import ReactIcon from '../assets/Icons/ReactIcon.png'
+import LaravelIcon from '../assets/Icons/LaravelIcon.png'
+import TailwindcssIcon from '../assets/Icons/TailwindcssIcon.png'
+import PythonIcon from '../assets/Icons/PythonIcon.png'
+import DockerIcon from '../assets/Icons/DockerIcon.png'
+import TypescriptIcon from '../assets/Icons/TypescriptIcon.png'
+
 export const portfolioItems = [
     {
         id : "1",
@@ -52,7 +70,8 @@ export const portfolioItems = [
         image : [LogistixImagen, LoginLogistix, CategoriasLogistix, ProductosLogistix, ComprasLogistix],
         status : "Proyecto Privado",
         description : "Sistema de Gestión de Inventario desarrollado para la Corporación Beni Electric SAC con el objetivo de mejorar la gestión de su inventario e incrementar sus ganancias a futuro.",
-        url : ""
+        url : "",
+        icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
     {
         id : "2",
@@ -62,7 +81,8 @@ export const portfolioItems = [
         image : [ecommerceJB, ModalProducto1, ModalProducto2],
         status : "Proyecto Privado",
         description : "Un carrito de compras desarrollado para la empresa Soluciones Integrales JB",
-        url : ""
+        url : "",
+        icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
     {
         id : "3",
@@ -72,7 +92,8 @@ export const portfolioItems = [
         image : [Dashboard, PantallaCarga, LoginMyWallet, TransaccionesMyWallet],
         status : "Proyecto Privado",
         description : "Mi primer proyecto personal desarrollado con el objetivo de mejorar la gestion de mis finanzas personales.",
-        url : ""
+        url : "",
+        icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
     },
     {
         id : "4",
@@ -82,7 +103,8 @@ export const portfolioItems = [
         image : [Rankings, Inicio, Peleadores],
         status : "Ver Proyecto",
         description : "Como fan de las MMA decidi desarrollar un proyecto para consumir la API de UFC y cargar dinamicamente la web con la información extraida.",
-        url : "https://github.com/CarlosDaniel-GCH/api-ufc"
+        url : "https://github.com/CarlosDaniel-GCH/api-ufc",
+        icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
     {
         id : "5",
@@ -92,7 +114,8 @@ export const portfolioItems = [
         image : [Categorias1, Categorias2, Favoritos, InicioFernanditoStore],
         status : "Ver Proyecto",
         description : "Fernanditostore.com es un proyecto de ecommerce con el objetivo de mejorar mi manejo de Laravel y React.",
-        url : "https://github.com/CarlosDaniel-GCH/fernandito-store"
+        url : "https://github.com/CarlosDaniel-GCH/fernandito-store",
+        icon : [ReactIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon]
     },
     {
         id : "6",
@@ -102,7 +125,8 @@ export const portfolioItems = [
         image : [Formulario, Entrada],
         status : "Ver Proyecto",
         description : "Un generador de PDF desarrollado con React con el objetivo de aprender a utilizar la libreria de React PDF",
-        url : "https://github.com/CarlosDaniel-GCH/Generador-tickets"
+        url : "https://github.com/CarlosDaniel-GCH/Generador-tickets",
+        icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
     {
         id : "7",
@@ -112,7 +136,8 @@ export const portfolioItems = [
         image : [ChatBot1, ChatBot2, ChatBot3],
         status : "Ver Proyecto",
         description : "InnoVentas es un proyecto que hice para aprender a implementar un agente de IA en una pagina web.",
-        url : "https://github.com/CarlosDaniel-GCH/InnovVentas_chatbot"
+        url : "https://github.com/CarlosDaniel-GCH/InnovVentas_chatbot",
+        icon : [ReactIcon, TailwindcssIcon, JavascriptIcon, DockerIcon, PythonIcon]
     },
     {
         id : "8",
@@ -122,7 +147,8 @@ export const portfolioItems = [
         image : [FernanditoStoreV1, LoginFernanditoStore, Register, Toast, FavoritosFernanditoStore],
         status : "Ver Proyecto",
         description : "Fernandito Store es un proyecto hecho con tecnologias nativas con Login, Register, Favoritos, Pagina de inicio e incluye toast para las acciones del programa.",
-        url : "https://github.com/CarlosDaniel-GCH/FernanditoStore-ProyectoFullStack"
+        url : "https://github.com/CarlosDaniel-GCH/FernanditoStore-ProyectoFullStack",
+        icon : [PhpIcon, CssIcon, JavascriptIcon, MySQLIcon]
     },
     {
         id : "9",
@@ -132,6 +158,18 @@ export const portfolioItems = [
         image : [LandingBeniElectric1, LandingBeniElectric2, LandingBeniElectric3, LandingBeniElectric4, Servicio1, Servicio2, Servicio3],
         status : "Proyecto Privado",
         description : "Una landing page desarrollada para mejorar la visibilidad de la empresa Corporación Beni Electric SAC",
-        url : ""
+        url : "",
+        icon : [ReactIcon, TailwindcssIcon]
+    },
+    {
+        id : "10",
+        title : "Lista libros",
+        company : "Proyecto Personal",
+        alt : "Lista Libros",
+        image : [Libros, BuscarLibro, AgregarLibro, EditarLibro, EliminarLibro],
+        status : "Ver Proyecto",
+        description : "Un proyecto Fullstack para agregar, editar, buscar y eliminar libros de una lista.",
+        url : "",
+        icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon]
     }
 ];

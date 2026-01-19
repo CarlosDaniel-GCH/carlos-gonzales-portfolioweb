@@ -26,7 +26,6 @@ function PortfolioModal({ project, onClose }) {
         <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
             <div className="bg-zinc-900 p-6 rounded-lg max-w-3xl w-full relative">
 
-                {/* Botón cerrar */}
                 <button
                     onClick={onClose}
                     className="absolute top-5 right-5 text-white bg-zinc-800 py-1 px-2 rounded-full border border-zinc-400 z-[100]"
@@ -34,7 +33,6 @@ function PortfolioModal({ project, onClose }) {
                     ✕
                 </button>
 
-                {/* Carrusel */}
                 {project.image?.length > 0 && (
                     <div className="relative mb-4">
                         <img
@@ -83,20 +81,33 @@ function PortfolioModal({ project, onClose }) {
                     {project.company}
                 </p>
 
-                <p className="text-gray-300 text-sm my-4">
+                <p className="text-gray-300 text-sm mt-4 mb-7">
                     {project.description}
                 </p>
 
-                {project.url && (
-                    <a
-                        href={project.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block bg-zinc-600 text-white px-4 py-2 rounded hover:bg-zinc-700"
-                    >
-                        Ver proyecto
-                    </a>
-                )}
+                <div className="flex justify-between">
+                    <div className="flex gap-4 items-center">
+                        {project.icon?.map((Icon, index) => (
+                            <img 
+                                key={index} 
+                                src={Icon} 
+                                alt="Tecnología"
+                                className="w-8 h-8 object-contain grayscale hover:grayscale-0 transition-all"
+                            />
+                        ))}
+                    </div>
+
+                    {project.url && (
+                        <a
+                            href={project.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-block bg-zinc-600 text-white px-4 py-2 rounded hover:bg-zinc-700"
+                        >
+                            Ver proyecto
+                        </a>
+                    )}
+                </div>
             </div>
         </div>
     );
