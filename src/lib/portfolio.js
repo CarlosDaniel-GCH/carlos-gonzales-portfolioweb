@@ -49,6 +49,9 @@ import AgregarLibro from '../assets/ListoLibros/AgregarLibro.png'
 import EditarLibro from '../assets/ListoLibros/EditarLibro.png'
 import EliminarLibro from '../assets/ListoLibros/EliminarLibro.png'
 
+import CrudTareas1 from '../assets/CrudTareas/CrudTareas1.png'
+import CrudTareas2 from '../assets/CrudTareas/CrudTareas2.png'
+
 // Icons
 import PhpIcon from '../assets/Icons/PhpIcon.png'
 import JavascriptIcon from '../assets/Icons/JavascriptIcon.png'
@@ -60,6 +63,7 @@ import TailwindcssIcon from '../assets/Icons/TailwindcssIcon.png'
 import PythonIcon from '../assets/Icons/PythonIcon.png'
 import DockerIcon from '../assets/Icons/DockerIcon.png'
 import TypescriptIcon from '../assets/Icons/TypescriptIcon.png'
+import VueIcon from '../assets/Icons/VueIcon.png'
 
 export const portfolioItems = [
     {
@@ -169,7 +173,18 @@ export const portfolioItems = [
         image : [Libros, BuscarLibro, AgregarLibro, EditarLibro, EliminarLibro],
         status : "Ver Proyecto",
         description : "Aplicación Full Stack robusta para la gestión de catálogos bibliográficos, desarrollada con un enfoque en la integridad de datos. Implementé un sistema CRUD completo con relaciones entre tablas de libros y categorías, utilizando TypeScript para garantizar un código mantenible y escalable, junto a un backend sólido en Laravel.",
-        url : "",
-        icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon]
+        url : "https://github.com/CarlosDaniel-GCH/lista-libros",
+        icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon, MySQLIcon]
+    },
+    {
+        id : "11",
+        title : "Crud Tareas",
+        company : "Proyecto Personal",
+        alt : "Crud Tareas",
+        image : [CrudTareas1, CrudTareas2],
+        status : "Ver Proyecto",
+        description : "Aplicación Full Stack desarrollada con Vue.Js y Laravel. Implementé una base de datos para almacenar tareas, el sistema permite agregar, eliminar y marcar tareas como completadas.",
+        url : "https://github.com/CarlosDaniel-GCH/crud-tareas",
+        icon : [VueIcon, LaravelIcon, JavascriptIcon, MySQLIcon]
     }
 ];
