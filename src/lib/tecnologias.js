@@ -7,7 +7,7 @@ import MySql from '../assets/MySql Logo.png'
 import MongoDB from '../assets/MongoDB Logo.png'
 import Laragon from '../assets/Laragon Logo.jpeg'
 import Docker from '../assets/Docker Logo.png'
-import Java from '../assets/Java Logo.png'
+import VueJS from '../assets/VueJS.png'
 import Python from '../assets/Python Logo.jpeg'
 import Tailwindcss from '../assets/Tailwind Logo.png'
 
@@ -20,57 +20,57 @@ export const tecnologias = [
     },
     {
         id : "2",
+        title : "Vue Js",
+        image : VueJS,
+        alt : "Vue Js"
+    },
+    {
+        id : "3",
         title : "Astro",
         image : Astro,
         alt : "Astro"
     },
     {
-        id : "3",
+        id : "4",
         title : "Laravel",
         image : Laravel,
         alt : "Laravel"
     },
     {
-        id : "4",
+        id : "5",
         title : "PHP",
         image : Php,
         alt : "PHP"
     },
     {
-        id : "5",
+        id : "6",
         title : "JavaScript",
         image : JavaScript,
         alt : "JavaScript"
     },
     {
-        id : "6",
+        id : "7",
         title : "MySql",
         image : MySql,
         alt : "MySql"
     },
     {
-        id : "7",
+        id : "8",
         title : "MongoDB",
         image : MongoDB,
         alt : "MongoDB"
     },
     {
-        id : "8",
+        id : "9",
         title : "Laragon",
         image : Laragon,
         alt : "Laragon"
     },
     {
-        id : "9",
+        id : "10",
         title : "Docker",
         image : Docker,
         alt : "Docker"
-    },
-    {
-        id : "10",
-        title : "Java",
-        image : Java,
-        alt : "Java"
     },
     {
         id : "11",
