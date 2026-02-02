@@ -53,10 +53,12 @@ function Inicio(){
                     <TitleComponent title={"Sobre mi"} />
                     
                     <p className='text-sm text-justify leading-loose cursor-context-menu'>
-                        Ingeniero de Software con experiencia práctica en el desarrollo de sistemas, aplicaciones web, arquitectura de sistemas y patrones de diseño. 
-                        Conocimientos solidos en PHP, Laravel, JavaScript, React, Docker, Node.js, HTML, Css, TailwindCSS, MySQL, tambien Git y GitHub. 
-                        Busco una posicion como desarrollador backend/fullstack para aplicar mis habilidades sobre soluciones eficientes y escalables.
-                        Tengo 22 años y soy graduado de la carrera de Ingenieria de Software con IA en el año 2025 en la institución Senati sede Independencia.
+                        Ingeniero de Software graduado de SENATI con 1.5 años de experiencia técnica transformando requerimientos de negocio 
+                        en soluciones digitales escalables. Mi enfoque se centra en la entrega puntual de productos de alta calidad, destacándome 
+                        por mi responsabilidad, puntualidad y aprendizaje continuo.
+                        Más allá de la escritura de código, me especializo en ofrecer soluciones eficientes que optimizan procesos, aplicando arquitecturas 
+                        sólidas y patrones de diseño en ecosistemas Fullstack (especialmente Laravel, VueJS y MySQL). Poseo una mentalidad analítica orientada 
+                        a la escalabilidad y el rendimiento, garantizando siempre el uso de buenas prácticas y flujos de trabajo ágiles bajo entornos Github y Git.
                     </p>
                 </div>
                 
