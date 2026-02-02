@@ -1,4 +1,5 @@
 import ReactLogo from '../assets/React Logo.png'
+import VueLogo from '../assets/VueJS.png'
 import LaravelLogo from '../assets/Laravel Logo.png'
 import Tailwindcss from '../assets/Tailwind Logo.png'
 import MySql from '../assets/MySql Logo.png'
@@ -10,9 +11,9 @@ import Github from '../assets/GithubLogo.png'
 export const StackFavorito = [
     {
         id : "1",
-        name : "React",
-        alt : "React",
-        image : ReactLogo
+        name : "VueJS",
+        alt : "VueJS",
+        image : VueLogo
     },
     {
         id : "2",
