@@ -85,7 +85,7 @@ function PortfolioModal({ project, onClose }) {
                     {project.description}
                 </p>
 
-                <div className="flex justify-between">
+                <div className="flex justify-between sm:flex-row md:flex-row flex-col gap-8">
                     <div className="flex gap-4 items-center">
                         {project.icon?.map((Icon, index) => (
                             <img 
@@ -97,16 +97,18 @@ function PortfolioModal({ project, onClose }) {
                         ))}
                     </div>
 
-                    {project.url && (
-                        <a
-                            href={project.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-block bg-zinc-600 text-white px-4 py-2 rounded hover:bg-zinc-700"
-                        >
-                            Ver proyecto
-                        </a>
-                    )}
+                    <div className="flex justify-center">
+                        {project.url && (
+                            <a
+                                href={project.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-zinc-600 text-white px-4 py-2 rounded hover:bg-zinc-700"
+                            >
+                                Ver proyecto
+                            </a>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>
