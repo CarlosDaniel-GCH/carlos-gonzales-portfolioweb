@@ -1,5 +1,5 @@
 import React from '../assets/React Logo.png'
-import Astro from '../assets/Astro Logo.png'
+import Nodejs from '../assets/Nodejs Logo.png'
 import Laravel from '../assets/Laravel Logo.png'
 import Php from '../assets/php Logo.png'
 import JavaScript from '../assets/JavaScript Logo.png'
@@ -26,9 +26,9 @@ export const tecnologias = [
     },
     {
         id : "3",
-        title : "Astro",
-        image : Astro,
-        alt : "Astro"
+        title : "Nodejs",
+        image : Nodejs,
+        alt : "Nodejs"
     },
     {
         id : "4",
