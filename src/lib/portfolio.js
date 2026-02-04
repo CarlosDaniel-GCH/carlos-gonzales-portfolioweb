@@ -43,6 +43,10 @@ import Servicio1 from '../assets/Landing Page/Servicio1.png'
 import Servicio2 from '../assets/Landing Page/Servicio2.png'
 import Servicio3 from '../assets/Landing Page/Servicio3.png'
 
+import LoginAuth from '../assets/node-auth/Login-Auth.png'
+import HomeAuth from '../assets/node-auth/Home-Auth.png'
+import HomeAuth2 from '../assets/node-auth/Home-Auth2.png'
+
 import Libros from '../assets/ListoLibros/Libros.png'
 import BuscarLibro from '../assets/ListoLibros/BuscarLibro.png'
 import AgregarLibro from '../assets/ListoLibros/AgregarLibro.png'
@@ -64,6 +68,8 @@ import PythonIcon from '../assets/Icons/PythonIcon.png'
 import DockerIcon from '../assets/Icons/DockerIcon.png'
 import TypescriptIcon from '../assets/Icons/TypescriptIcon.png'
 import VueIcon from '../assets/Icons/VueIcon.png'
+import MongodbIcon from '../assets/Icons/MongodbIcon.png'
+import NodejsIcon from '../assets/Icons/NodejsIcon.webp'
 
 export const portfolioItems = [
     {
@@ -166,7 +172,18 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon]
     },
     {
-        id : "10",
+        id : "11",
+        title : "Autenticacion NodeJs + VueJs",
+        company : "Proyecto Personal",
+        alt : "Auth Nodejs",
+        image : [LoginAuth, HomeAuth, HomeAuth2],
+        status : "Ver Proyecto",
+        description : "Proyecto hecho con VueJs y NodeJs con el objetivo de poner en practica la auntenticacion con JWT y usando una base de datos no relacional como MongoDB para guardar la información.",
+        url : "https://github.com/CarlosDaniel-GCH/auth-node.git",
+        icon : [VueIcon, JavascriptIcon, NodejsIcon, MongodbIcon]
+    },
+    {
+        id : "12",
         title : "Lista libros",
         company : "Proyecto Personal",
         alt : "Lista Libros",
@@ -177,7 +194,7 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon, MySQLIcon]
     },
     {
-        id : "11",
+        id : "13",
         title : "Crud Tareas",
         company : "Proyecto Personal",
         alt : "Crud Tareas",
