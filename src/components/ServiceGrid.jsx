@@ -9,7 +9,7 @@ function ServiceGrid({ icon, title, description }){
                 {title}
             </span>
 
-            <span className="text-sm text-justify cursor-context-menu">
+            <span className="text-sm cursor-context-menu">
                 {description}
             </span>
         </div>
