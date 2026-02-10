@@ -57,7 +57,7 @@ function Inicio(){
                         en soluciones digitales escalables. Mi enfoque se centra en la entrega puntual de productos de alta calidad, destacándome 
                         por mi responsabilidad, puntualidad y aprendizaje continuo.
                         Más allá de la escritura de código, me especializo en ofrecer soluciones eficientes que optimizan procesos, aplicando arquitecturas 
-                        sólidas y patrones de diseño en ecosistemas Fullstack (especialmente Laravel, VueJS y MySQL). Poseo una mentalidad analítica orientada 
+                        sólidas y patrones de diseño en ecosistemas Fullstack (especialmente Laravel, VueJS y MySQL). Tengo una mentalidad analítica orientada 
                         a la escalabilidad y el rendimiento, garantizando siempre el uso de buenas prácticas y flujos de trabajo ágiles bajo entornos Github y Git.
                     </p>
                 </div>

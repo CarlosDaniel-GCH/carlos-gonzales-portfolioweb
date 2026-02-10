@@ -85,8 +85,8 @@ function PortfolioModal({ project, onClose }) {
                     {project.description}
                 </p>
 
-                <div className="flex justify-between sm:flex-row md:flex-row flex-col gap-8">
-                    <div className="flex gap-4 items-center">
+                <div className="flex justify-between sm:flex-row md:flex-row flex-col gap-6">
+                    <div className="flex gap-4">
                         {project.icon?.map((Icon, index) => (
                             <img 
                                 key={index} 
