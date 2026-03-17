@@ -118,6 +118,17 @@ export const portfolioItems = [
     },
     {
         id : "5",
+        title : "Generador de Tickets PDF",
+        company : "Proyecto Personal",
+        alt : "Generador de Tickets",
+        image : [Formulario, Entrada],
+        status : "Ver Proyecto",
+        description : "Aplicación desarrollada con React para la gestión y exportación de datos en formato PDF. Implementé la librería @react-pdf/renderer para transformar entradas de usuario en documentos estructurados, aplicando técnicas de maquetación precisas para replicar fielmente el diseño de un ticket físico.",
+        url : "https://generador-tickets-neon.vercel.app/",
+        icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
+    },
+    {
+        id : "6",
         title : "fernanditostore.com",
         company : "Proyecto Personal",
         alt : "Fernanditostore.com",
@@ -126,17 +137,6 @@ export const portfolioItems = [
         description : "E-commerce robusto enfocado en la experiencia de usuario y la gestión de inventario. El sistema permite la visualización dinámica de artículos, administración de estados del carrito y una sección personalizada de favoritos. Construido con una arquitectura desacoplada utilizando Laravel como API y React para el Frontend.",
         url : "https://github.com/CarlosDaniel-GCH/fernandito-store",
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon]
-    },
-    {
-        id : "6",
-        title : "Generador de Tickets PDF",
-        company : "Proyecto Personal",
-        alt : "Generador de Tickets",
-        image : [Formulario, Entrada],
-        status : "Ver Proyecto",
-        description : "Aplicación desarrollada con React para la gestión y exportación de datos en formato PDF. Implementé la librería @react-pdf/renderer para transformar entradas de usuario en documentos estructurados, aplicando técnicas de maquetación precisas para replicar fielmente el diseño de un ticket físico.",
-        url : "https://github.com/CarlosDaniel-GCH/Generador-tickets",
-        icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
     {
         id : "7",
