@@ -23,12 +23,12 @@ export const navbarItems = [
         icon: "fa-solid fa-code mr-1",
         href: "#tecnologias"
     },
-    {
-        id: "5",
-        title: "Servicios",
-        icon: "fa-solid fa-handshake mr-1",
-        href: "#servicios"
-    },
+    // {
+    //     id: "5",
+    //     title: "Servicios",
+    //     icon: "fa-solid fa-handshake mr-1",
+    //     href: "#servicios"
+    // },
     {
         id: "6",
         title: "Contact",
