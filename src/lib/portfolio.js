@@ -113,7 +113,7 @@ export const portfolioItems = [
         image : [Rankings, Inicio, Peleadores],
         status : "Ver Proyecto",
         description : "Como fan de las MMA cree esta web que utiliza React y Tailwind CSS para procesar y mostrar datos complejos extraídos de una API externa. Implementé lógica de filtrado y mapeo dinámico para organizar la información de peleadores y posiciones globales, priorizando la velocidad de carga y una interfaz de usuario moderna.",
-        url : "https://github.com/CarlosDaniel-GCH/api-ufc",
+        url : "https://api-ufc-three.vercel.app/rankings",
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
     {
