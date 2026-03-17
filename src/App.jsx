@@ -98,7 +98,7 @@ function App() {
           <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-trophy mr-2"></i> <a href="#experiencia">Experiencia</a></button>
           <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-images mr-2"></i> <a href="#portfolio">Portfolio</a></button>
           <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-code mr-2"></i> <a href="#tecnologias">Tecnologias</a></button>
-          <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-handshake mr-2"></i> <a href="#servicios">Servicios</a></button>
+          {/* <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-handshake mr-2"></i> <a href="#servicios">Servicios</a></button> */}
           <button onClick={toggleMenu} className="text-left p-2 hover:bg-zinc-700 rounded transition-colors"><i className="fa-solid fa-paper-plane mr-2"></i> <a href="#contacto">Contact</a></button>
         </div>
         
@@ -134,9 +134,9 @@ function App() {
               <Tecnologias/>
             </div>
 
-            <div id='servicios' className='pt-16'>
+            {/* <div id='servicios' className='pt-16'>
               <Servicios/>
-            </div>
+            </div> */}
 
             <div id='contacto' className='pt-16'>
               <Contacto/>
