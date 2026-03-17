@@ -1,6 +1,5 @@
 import ReactLogo from '../assets/React Logo.png'
 import VueLogo from '../assets/VueJS.png'
-import LaravelLogo from '../assets/Laravel Logo.png'
 import Tailwindcss from '../assets/Tailwind Logo.png'
 import MySql from '../assets/MySql Logo.png'
 import JavaScript from '../assets/JavaScript Logo.png'
@@ -17,34 +16,35 @@ export const StackFavorito = [
     },
     {
         id : "2",
-        name : "Laravel",
-        alt : "Laravel",
-        image : LaravelLogo
+        name : "React",
+        alt : "React",
+        image : ReactLogo
     },
     {
         id : "3",
-        name : "Tailwindcss",
-        alt : "Tailwindcss",
-        image : Tailwindcss
-    },
-    {
-        id : "4",
-        name : "MySql",
-        alt : "MySql",
-        image : MySql
-    },
-    {
-        id : "5",
         name : "JavaScript",
         alt : "JavaScript",
         image : JavaScript
     },
     {
-        id : "6",
+        id : "4",
         name : "TypeScript",
         alt : "TypeScript",
         image : TypeScriptLogo
     },
+    {
+        id : "5",
+        name : "Tailwindcss",
+        alt : "Tailwindcss",
+        image : Tailwindcss
+    },
+    {
+        id : "6",
+        name : "MySql",
+        alt : "MySql",
+        image : MySql
+    },
+    
     {
         id : "7",
         name : "Git",
