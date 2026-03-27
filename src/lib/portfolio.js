@@ -9,9 +9,11 @@ import ModalProducto1 from '../assets/SolucionesJB/ModalProducto1.png'
 import ModalProducto2 from '../assets/SolucionesJB/ModalProducto2.png'
 
 import Dashboard from '../assets/MyWallet/Dashboard.png'
-import PantallaCarga from '../assets/MyWallet/PantallaCarga.png'
-import LoginMyWallet from '../assets/MyWallet/LoginMyWallet.png'
-import TransaccionesMyWallet from '../assets/MyWallet/TransaccionesMyWallet.png'
+import Transacciones from '../assets/MyWallet/Transacciones.png'
+import Cuentas from '../assets/MyWallet/Cuentas.png'
+import Categorias from '../assets/MyWallet/Categorias.png'
+import Personas from '../assets/MyWallet/Personas.png'
+import Login from '../assets/MyWallet/Login.png'
 
 import Rankings from '../assets/UFC-API/Rankings.png'
 import Inicio from '../assets/UFC-API/Inicio.png'
@@ -99,11 +101,11 @@ export const portfolioItems = [
         title : "MyWallet - Finanzas Personales",
         company : "Proyecto Personal",
         alt : "MyWallet",
-        image : [Dashboard, PantallaCarga, LoginMyWallet, TransaccionesMyWallet],
+        image : [Dashboard, Transacciones, Cuentas, Categorias, Personas, Login],
         status : "Proyecto Privado",
-        description : "Software de finanzas personales con capacidades de monitoreo en tiempo real. Incluye un panel de control (dashboard) para la visualización de datos, gestión de transacciones y un sistema organizado de categorías y perfiles de usuario.",
+        description : "Sistema construido para la gestión de finanzas personales, use Arquitectura Hexagonal, manejo de idiomas con i18n, caché con Redis, inicio de sesion con google, validacion de correos con Abstract API, envio de correos con Resend y le implementé un modo oscuro.",
         url : "",
-        icon : [PhpIcon, JavascriptIcon, CssIcon, MySQLIcon]
+        icon : [VueIcon, NodejsIcon, TypescriptIcon, TailwindcssIcon, MySQLIcon]
     },
     {
         id : "4",
