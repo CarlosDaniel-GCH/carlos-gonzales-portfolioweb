@@ -27,6 +27,8 @@ import InicioFernanditoStore from '../assets/Fernanditostore.com/Inicio.png'
 import Formulario from '../assets/GeneradorEntradas/Formulario.png'
 import Entrada from '../assets/GeneradorEntradas/Entrada.png'
 
+import SnakeGame from '../assets/snake-game/Snake-Image.png'
+
 import ChatBot1 from '../assets/InnoVentas/Chatbot1.png'
 import ChatBot2 from '../assets/InnoVentas/Chatbot2.png'
 import ChatBot3 from '../assets/InnoVentas/Chatbot3.png'
@@ -49,12 +51,6 @@ import LoginAuth from '../assets/node-auth/Login-Auth.png'
 import HomeAuth from '../assets/node-auth/Home-Auth.png'
 import HomeAuth2 from '../assets/node-auth/Home-Auth2.png'
 
-import Libros from '../assets/ListoLibros/Libros.png'
-import BuscarLibro from '../assets/ListoLibros/BuscarLibro.png'
-import AgregarLibro from '../assets/ListoLibros/AgregarLibro.png'
-import EditarLibro from '../assets/ListoLibros/EditarLibro.png'
-import EliminarLibro from '../assets/ListoLibros/EliminarLibro.png'
-
 import CrudTareas1 from '../assets/CrudTareas/CrudTareas1.png'
 import CrudTareas2 from '../assets/CrudTareas/CrudTareas2.png'
 
@@ -72,6 +68,7 @@ import TypescriptIcon from '../assets/Icons/TypescriptIcon.png'
 import VueIcon from '../assets/Icons/VueIcon.png'
 import MongodbIcon from '../assets/Icons/MongodbIcon.png'
 import NodejsIcon from '../assets/Icons/NodejsIcon.webp'
+import HtmlIcon from '../assets/Icons/HtmlIcon.png';
 
 export const portfolioItems = [
     {
@@ -141,7 +138,18 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon]
     },
     {
-        id : "7",
+        id: "7",
+        title: "Snake Game",
+        company: "Proyecto Personal",
+        alt: "Snake Game",
+        image: [SnakeGame],
+        status: "Proyecto Desplegado",
+        description: "Juego de Snake desarrollado con HTML, CSS y JavaScript. Implementé la lógica del juego y la interfaz de usuario.",
+        url: "https://e49d294c.snake-game-3u1.pages.dev/",
+        icon: [HtmlIcon, CssIcon, JavascriptIcon]
+    },
+    {
+        id : "8",
         title : "fernanditostore.com",
         company : "Proyecto Personal",
         alt : "Fernanditostore.com",
@@ -152,7 +160,7 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon]
     },
     {
-        id : "8",
+        id : "9",
         title : "InnoVentas - Chatbot",
         company : "Proyecto Personal",
         alt : "InnoVentas - Chatbot",
@@ -163,7 +171,7 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon, DockerIcon, PythonIcon]
     },
     {
-        id : "9",
+        id : "10",
         title : "Fernandito Store",
         company : "Proyecto Personal",
         alt : "Fernandito Store",
@@ -174,7 +182,7 @@ export const portfolioItems = [
         icon : [PhpIcon, CssIcon, JavascriptIcon, MySQLIcon]
     },
     {
-        id : "10",
+        id : "11",
         title : "Autenticacion NodeJs + VueJs",
         company : "Proyecto Personal",
         alt : "Auth Nodejs",
@@ -183,17 +191,6 @@ export const portfolioItems = [
         description : "Proyecto hecho con VueJs y NodeJs con el objetivo de poner en practica la auntenticacion con JWT y usando una base de datos no relacional como MongoDB para guardar la información.",
         url : "https://github.com/CarlosDaniel-GCH/auth-node.git",
         icon : [VueIcon, JavascriptIcon, NodejsIcon, MongodbIcon]
-    },
-    {
-        id : "11",
-        title : "Lista libros",
-        company : "Proyecto Personal",
-        alt : "Lista Libros",
-        image : [Libros, BuscarLibro, AgregarLibro, EditarLibro, EliminarLibro],
-        status : "Código del Proyecto",
-        description : "Aplicación Full Stack robusta para la gestión de catálogos bibliográficos, desarrollada con un enfoque en la integridad de datos. Implementé un sistema CRUD completo con relaciones entre tablas de libros y categorías, utilizando TypeScript para garantizar un código mantenible y escalable, junto a un backend sólido en Laravel.",
-        url : "https://github.com/CarlosDaniel-GCH/lista-libros",
-        icon : [ReactIcon, TailwindcssIcon, LaravelIcon, TypescriptIcon, MySQLIcon]
     },
     {
         id : "12",
