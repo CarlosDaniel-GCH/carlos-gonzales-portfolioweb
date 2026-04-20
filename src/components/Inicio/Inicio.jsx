@@ -53,12 +53,12 @@ function Inicio(){
                     <TitleComponent title={"Sobre mi"} />
                     
                     <p className='text-sm leading-loose cursor-context-menu'>
-                        Ingeniero de Software graduado de SENATI con 1.5 años de experiencia técnica transformando requerimientos de negocio 
-                        en soluciones digitales escalables. Mi enfoque se centra en la entrega puntual de productos de alta calidad, destacándome 
-                        por mi responsabilidad, puntualidad y aprendizaje continuo.
-                        Más allá de la escritura de código, me especializo en ofrecer soluciones eficientes que optimizan procesos, aplicando arquitecturas 
-                        sólidas y patrones de diseño en ecosistemas Fullstack (especialmente Laravel, VueJS y MySQL). Tengo una mentalidad analítica orientada 
-                        a la escalabilidad y el rendimiento, garantizando siempre el uso de buenas prácticas y flujos de trabajo ágiles bajo entornos Github y Git.
+                        Egresado de Ingeniería de Software con IA con sólida experiencia técnica en la creación de soluciones SaaS y sistemas de gestión 
+                        escalables. Especialista en desarrollo Backend con Node.js y Laravel, aplicando Arquitectura Hexagonal y patrones MVC para asegurar 
+                        un código limpio, desacoplado y de alta mantenibilidad. Dominio avanzado de TypeScript, React y Vue.js, con éxito probado en la 
+                        optimización de procesos críticos de negocio y despliegue automatizado en entornos cloud como Railway y Vercel. Mi enfoque integra 
+                        la gestión completa del ciclo de vida del software, desde el diseño de bases de datos relacionales y NoSQL hasta la implementación de 
+                        flujos de seguridad avanzados y servicios de pago, garantizando siempre productos digitales robustos y orientados al rendimiento.
                     </p>
                 </div>
                 
