@@ -68,7 +68,8 @@ import TypescriptIcon from '../assets/Icons/TypescriptIcon.png'
 import VueIcon from '../assets/Icons/VueIcon.png'
 import MongodbIcon from '../assets/Icons/MongodbIcon.png'
 import NodejsIcon from '../assets/Icons/NodejsIcon.webp'
-import HtmlIcon from '../assets/Icons/HtmlIcon.png';
+import HtmlIcon from '../assets/Icons/HtmlIcon.png'
+import RedisIcon from '../assets/Icons/Redisicon.png'
 
 export const portfolioItems = [
     {
@@ -102,7 +103,7 @@ export const portfolioItems = [
         status : "Proyecto Privado",
         description : "Sistema construido para la gestión de finanzas personales, use Arquitectura Hexagonal, manejo de idiomas con i18n, caché con Redis, inicio de sesion con google, validacion de correos con Abstract API, envio de correos con Resend y le implementé un modo oscuro.",
         url : "",
-        icon : [VueIcon, NodejsIcon, TypescriptIcon, TailwindcssIcon, MySQLIcon]
+        icon : [VueIcon, NodejsIcon, TypescriptIcon, RedisIcon, TailwindcssIcon, MySQLIcon]
     },
     {
         id : "4",
@@ -150,6 +151,28 @@ export const portfolioItems = [
     },
     {
         id : "8",
+        title : "Autenticacion NodeJs + VueJs",
+        company : "Proyecto Personal",
+        alt : "Auth Nodejs",
+        image : [LoginAuth, HomeAuth, HomeAuth2],
+        status : "Código del Proyecto",
+        description : "Proyecto hecho con VueJs y NodeJs con el objetivo de poner en practica la auntenticacion con JWT y usando una base de datos no relacional como MongoDB para guardar la información.",
+        url : "https://github.com/CarlosDaniel-GCH/auth-node.git",
+        icon : [VueIcon, TailwindcssIcon, JavascriptIcon, NodejsIcon, MongodbIcon]
+    },
+    {
+        id : "9",
+        title : "Crud Tareas",
+        company : "Proyecto Personal",
+        alt : "Crud Tareas",
+        image : [CrudTareas1, CrudTareas2],
+        status : "Código del Proyecto",
+        description : "Aplicación Full Stack desarrollada con Vue.Js y Laravel. Implementé una base de datos para almacenar tareas, el sistema permite agregar, eliminar y marcar tareas como completadas.",
+        url : "https://github.com/CarlosDaniel-GCH/crud-tareas",
+        icon : [VueIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon, MySQLIcon]
+    },
+    {
+        id : "10",
         title : "fernanditostore.com",
         company : "Proyecto Personal",
         alt : "Fernanditostore.com",
@@ -160,7 +183,7 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, LaravelIcon, JavascriptIcon]
     },
     {
-        id : "9",
+        id : "11",
         title : "InnoVentas - Chatbot",
         company : "Proyecto Personal",
         alt : "InnoVentas - Chatbot",
@@ -171,7 +194,7 @@ export const portfolioItems = [
         icon : [ReactIcon, TailwindcssIcon, JavascriptIcon, DockerIcon, PythonIcon]
     },
     {
-        id : "10",
+        id : "12",
         title : "Fernandito Store",
         company : "Proyecto Personal",
         alt : "Fernandito Store",
@@ -180,27 +203,5 @@ export const portfolioItems = [
         description : "Plataforma de comercio electrónico Full Stack desarrollada con tecnologías nativas para garantizar un control total sobre la lógica del servidor y la base de datos. Implementé un sistema robusto de autenticación (Login/Registro), gestión de sesiones y una funcionalidad de favoritos, integrando notificaciones tipo 'toast' para mejorar la respuesta al usuario ante cada acción.",
         url : "https://github.com/CarlosDaniel-GCH/FernanditoStore-ProyectoFullStack",
         icon : [PhpIcon, CssIcon, JavascriptIcon, MySQLIcon]
-    },
-    {
-        id : "11",
-        title : "Autenticacion NodeJs + VueJs",
-        company : "Proyecto Personal",
-        alt : "Auth Nodejs",
-        image : [LoginAuth, HomeAuth, HomeAuth2],
-        status : "Código del Proyecto",
-        description : "Proyecto hecho con VueJs y NodeJs con el objetivo de poner en practica la auntenticacion con JWT y usando una base de datos no relacional como MongoDB para guardar la información.",
-        url : "https://github.com/CarlosDaniel-GCH/auth-node.git",
-        icon : [VueIcon, JavascriptIcon, NodejsIcon, MongodbIcon]
-    },
-    {
-        id : "12",
-        title : "Crud Tareas",
-        company : "Proyecto Personal",
-        alt : "Crud Tareas",
-        image : [CrudTareas1, CrudTareas2],
-        status : "Código del Proyecto",
-        description : "Aplicación Full Stack desarrollada con Vue.Js y Laravel. Implementé una base de datos para almacenar tareas, el sistema permite agregar, eliminar y marcar tareas como completadas.",
-        url : "https://github.com/CarlosDaniel-GCH/crud-tareas",
-        icon : [VueIcon, LaravelIcon, JavascriptIcon, MySQLIcon]
     }
 ];
