@@ -47,7 +47,7 @@ function App() {
         Visible desde escritorio
         =========================================================
         */}
-        <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-8 top-0 z-50" : "relative md:w-full md:max-w-6xl"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
+        <div className={`${isSticky ? "fixed w-screen max-w-full right-0 px-8 top-0 z-50" : "relative md:w-full"}  hidden sm:flex justify-between bg-zinc-900 text-gray-200 md:text-base sm:text-sm text-base border-t border-b border-zinc-700 py-3 px-2 `}>
           {
             navbarItems.map( (items) => {
               return(
